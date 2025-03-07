@@ -1,53 +1,66 @@
-﻿<div id="container" class="containerCategoria">
-    <div class="container1Categoria">
-        <div>
-            <button class="btnCategoria">
-                Novo
-            </button>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/categoria.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AlmoxafiradoFront.styles.css" asp-append-version="true" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="container" class="containerCategoria">
+        <div class="container1Categoria">
+            <div>
+                <button class="btnCategoria">
+                    Novo
+                </button>
+            </div>
+        </div>
+        <div class="container2Categoria">
+            <table class="TableContainerCategoria">
+                <thead class="theadCategoria">
+                <th>
+                    Código
+                </th>
+                <th>
+                    Descrição
+                </th>
+                <th>
+                    Opções
+                </th>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in ViewBag.Categoria)
+                    {
+                        <tr>
+                            <td class="tdCategoria">@item.codigo</td>
+                            <td class="tdCategoria">@item.descricao</td>
+                            <td class="tdCategoria">
+                                <div class="IconesContainerCategoria">
+                                    <div class="Icone1Categoria">
+                                    </div>
+                                    <div class="Icone2Categoria">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+
+
+            </table>
+        </div>
+        <div class="container3Categoria">
+            <div>
+                <button class="btnCategoria BtnAzulColorCategoria">
+                    Voltar
+                </button>
+            </div>
         </div>
     </div>
-    <div class="container2Categoria">
-        <table class="TableContainerCategoria">
-            <thead class="theadCategoria">
-            <th>
-                Código
-            </th>
-            <th>
-                Descrição
-            </th>
-            <th>
-                Opções
-            </th>
-            </thead>
-            <tbody>
-           
-                @foreach (var item in ViewBag.Categorias)
-                {
-                    <tr>
-                        <td class="tdCategoria">@item.codigo</td>
-                        <td class="tdCategoria">@item.descricao</td>
-                        <td class="tdCategoria">
-                            <div class="IconesContainerCategoria">
-                                <div class="Icone1Categoria">
-                                </div>
-                                <div class="Icone2Categoria">
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-               
-                }
-            </tbody>
 
-        
-        </table>
-    </div>
-    <div class="container3Categoria">
-        <div>
-            <button class="btnCategoria BtnAzulColorCategoria">
-                Voltar
-            </button>
-        </div>
-    </div>
-</div>
-
+</body>
+</html>
