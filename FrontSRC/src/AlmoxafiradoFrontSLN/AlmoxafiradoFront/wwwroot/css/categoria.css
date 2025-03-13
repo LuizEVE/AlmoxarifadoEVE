@@ -67,25 +67,30 @@
 
 .Icone1Categoria {
     background-color: red;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
-.Icone2Catogira {
+.Icone2Categoria {
     background-color: yellow;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
-.IconesContainerCatogeria {
+.IconesContainerCategoria {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    gap: 1rem;
+    
+    flex-direction: row;
+}
+
+.iconelixo{
+
 }
 
 @media (max-width: 768px) {
