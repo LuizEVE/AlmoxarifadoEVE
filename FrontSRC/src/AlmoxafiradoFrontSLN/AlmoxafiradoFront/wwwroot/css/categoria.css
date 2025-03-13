@@ -1,4 +1,17 @@
-﻿.containerCategoria {
+﻿
+body {
+    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container {
     width: 60%;
     height: 60%;
     background-color: white;
@@ -8,7 +21,7 @@
     flex-direction: column;
 }
 
-.container1Categoria {
+.container1 {
     width: 100%;
     height: 15%;
     /* background-color: black; */
@@ -16,13 +29,13 @@
     align-items: center;
 }
 
-.container2Categoria {
+.container2 {
     width: 100%;
     height: 70%;
     /* background-color: green; */
 }
 
-.container3Categoria {
+.container3 {
     width: 100%;
     height: 15%;
     /* background-color: yellow; */
@@ -31,7 +44,7 @@
     align-items: center;
 }
 
-.btnCategoria {
+.btn {
     padding: 0.3rem;
     width: 100px;
     background-color: aquamarine;
@@ -41,60 +54,55 @@
     font-weight: bolder;
 }
 
-.BtnAzulColorCatogeria {
+.BtnAzulColor {
     background-color: cyan !important;
 }
 
-.theadCategoria {
+thead {
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 
-.TableContainerCateogira {
+.TableContainer {
     width: 100%;
     font-size: 15pt !important;
 }
 
-.TableContainerCategoria td, th {
-    border: 1px solid black;
-}
+    .TableContainer td, th {
+        border: 1px solid black;
+    }
 
-.tdCatoria {
+td {
     background-color: white;
     color: black;
 }
 
-.Icone1Categoria {
+.Icone1 {
     background-color: red;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
-.Icone2Categoria {
+.Icone2 {
     background-color: yellow;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
-.IconesContainerCategoria {
+.IconesContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    
-    flex-direction: row;
-}
-
-.iconelixo{
-
+    gap: 1rem;
 }
 
 @media (max-width: 768px) {
-    .containerCategoria {
+    .container {
         width: 82%;
     }
 }
