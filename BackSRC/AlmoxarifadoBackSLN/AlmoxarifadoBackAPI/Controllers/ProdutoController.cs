@@ -17,28 +17,28 @@ namespace AlmoxarifadoBackAPI.Controllers
       
         }
 
-        [HttpGet("/listaprodutos")]
+        [HttpGet("/listaProdutos")]
         public IActionResult listaProdutos()
         {
             return Ok(_db.GetAll());
         }
 
-        [HttpPost("/produto")]
-        public IActionResult listaProdutos(ProdutoDTO categoria)
+        [HttpPost("/Produto")]
+        public IActionResult listaProdutos(ProdutoDTO produto)
         {
-            return Ok(_db.GetAll().Where(x=>x.Codigo==categoria.Codigo));
+            return Ok(_db.GetAll().Where(x=>x.Codigo==produto.Codigo));
         }
 
-        [HttpPost("/criarproduto")]
+        [HttpPost("/criarProduto")]
         public IActionResult criarProduto(ProdutoCadastroDTO produto)
         {
 
             var novaProduto = new Produto()
             {               
                 Descricao = produto.Descricao,
-                UnidadeMedida = produto.UnidadeMedida,
+                UnMedida = produto.UnMedida,
                 EstoqueAtual = produto.EstoqueAtual,
-                Epermanente = produto.Epermanente,
+                EPermanente = produto.EPermanente,
                 CodigoCategoria = produto.CodigoCategoria,
 
             };

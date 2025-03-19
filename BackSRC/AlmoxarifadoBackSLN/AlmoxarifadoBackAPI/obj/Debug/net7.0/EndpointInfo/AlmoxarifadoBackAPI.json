@@ -78,80 +78,6 @@
           }
         }
       }
-    },
-    "/listaprodutos": {
-      "get": {
-        "tags": [
-          "Produto"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/produto": {
-      "post": {
-        "tags": [
-          "Produto"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProdutoDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProdutoDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProdutoDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/criarproduto": {
-      "post": {
-        "tags": [
-          "Produto"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProdutoCadastroDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProdutoCadastroDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProdutoCadastroDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
     }
   },
   "components": {
@@ -167,41 +93,6 @@
         "additionalProperties": false
       },
       "CategoriaDTO": {
-        "type": "object",
-        "properties": {
-          "codigo": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "ProdutoCadastroDTO": {
-        "type": "object",
-        "properties": {
-          "descricao": {
-            "type": "string",
-            "nullable": true
-          },
-          "unidadeMedida": {
-            "type": "string",
-            "nullable": true
-          },
-          "estoqueAtual": {
-            "type": "number",
-            "format": "float"
-          },
-          "epermanente": {
-            "type": "boolean"
-          },
-          "codigoCategoria": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "ProdutoDTO": {
         "type": "object",
         "properties": {
           "codigo": {
