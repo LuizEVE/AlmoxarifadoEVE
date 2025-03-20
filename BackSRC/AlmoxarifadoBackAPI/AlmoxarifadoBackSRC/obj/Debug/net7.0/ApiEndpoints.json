@@ -1,0 +1,275 @@
+[
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.CategoriaController",
+    "Method": "listaCategorias",
+    "RelativePath": "categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "AlmoxarifadoBackSRC.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.CategoriaController",
+    "Method": "criarCategoria",
+    "RelativePath": "criarcategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "AlmoxarifadoBackSRC.DTO.CategoriaCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.EntradaController",
+    "Method": "criarEntrada",
+    "RelativePath": "criarEntrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Entrada",
+        "Type": "AlmoxarifadoBackSRC.DTO.EntradaCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.FornecedorController",
+    "Method": "criarFornecedor",
+    "RelativePath": "criarFornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Fornecedor",
+        "Type": "AlmoxarifadoBackSRC.DTO.FornecedorCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.ProdutoController",
+    "Method": "criarProduto",
+    "RelativePath": "criarProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Produto",
+        "Type": "AlmoxarifadoBackSRC.DTO.ProdutoCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.SaidaController",
+    "Method": "criarSaida",
+    "RelativePath": "criarSaida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Saida",
+        "Type": "AlmoxarifadoBackSRC.DTO.SaidaCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.SecretariaController",
+    "Method": "criarSecretaria",
+    "RelativePath": "criarSecretaria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Secretaria",
+        "Type": "AlmoxarifadoBackSRC.DTO.SecretariaCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.EntradaController",
+    "Method": "listaEntradas",
+    "RelativePath": "Entrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Entrada",
+        "Type": "AlmoxarifadoBackSRC.DTO.EntradaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.FornecedorController",
+    "Method": "listaFornecedors",
+    "RelativePath": "Fornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Fornecedor",
+        "Type": "AlmoxarifadoBackSRC.DTO.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.CategoriaController",
+    "Method": "listaCategorias",
+    "RelativePath": "listaCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.EntradaController",
+    "Method": "listaEntradas",
+    "RelativePath": "listaEntrada",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.FornecedorController",
+    "Method": "listaFornecedors",
+    "RelativePath": "listaFornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.ProdutoController",
+    "Method": "listaProdutos",
+    "RelativePath": "listaProduto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.SaidaController",
+    "Method": "listaSaidas",
+    "RelativePath": "listaSaida",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.SecretariaController",
+    "Method": "listaSecretarias",
+    "RelativePath": "listaSecretaria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.ProdutoController",
+    "Method": "listaProdutos",
+    "RelativePath": "Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Produto",
+        "Type": "AlmoxarifadoBackSRC.DTO.ProdutoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.SaidaController",
+    "Method": "listaSaidas",
+    "RelativePath": "Saida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Saida",
+        "Type": "AlmoxarifadoBackSRC.DTO.SaidaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.SecretariaController",
+    "Method": "listaSecretarias",
+    "RelativePath": "Secretaria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Secretaria",
+        "Type": "AlmoxarifadoBackSRC.DTO.SecretariaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackSRC.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AlmoxarifadoBackSRC.WeatherForecast, AlmoxarifadoBackSRC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

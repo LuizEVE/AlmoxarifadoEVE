@@ -11,7 +11,7 @@ namespace AlmoxafiradoFront.Controllers
         {
             
             
-            var url = "https://localhost:44366/lista\r\n";
+            var url = "https://localhost:44366/listaCategoria";
             List <CategoriaDTO> categorias = new List < CategoriaDTO> ();
             using HttpClient client = new HttpClient();
             try
@@ -28,8 +28,16 @@ namespace AlmoxafiradoFront.Controllers
             {
                 return View();
                 
-            }
+            }       
+            
+                                            
 
+            return View();
+        }
+       
+        [HttpGet]
+        public  IActionResult Create()
+        {
             return View();
         }
     }

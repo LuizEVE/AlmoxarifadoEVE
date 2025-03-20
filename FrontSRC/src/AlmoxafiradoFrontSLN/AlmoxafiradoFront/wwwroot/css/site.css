@@ -27,17 +27,7 @@ body {
     padding-right: 20px;
 }
 
-.itemmenu {
-    margin-right: 10px;
-    background-color: rgb(61, 144, 144);
-    color: #ffff;
-    width: 100px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
+
 
     .itemmenu:hover {
         background-color: black;
