@@ -1,6 +1,7 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Text;
 using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
@@ -29,6 +30,43 @@ namespace AlmoxafiradoFront.Controllers
             }
 
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult Cadastrar(string descricao)
+        {
+            var url = "https://localhost:44366/criarcategoria";
+       
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var categoriaNova = new CategoriaNovaDTO { descricao = descricao };
+                
+                var cartoriaSerializada= JsonSerializer.Serialize<CategoriaNovaDTO>(categoriaNova);
+
+                var jsonContent = new StringContent(cartoriaSerializada, Encoding.UTF8,"application/json");
+
+
+                HttpResponseMessage response = client.PostAsync(url, jsonContent ).Result;
+                response.EnsureSuccessStatusCode();
+
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+
+
+            return RedirectToAction("Index");
         }
     }
 }

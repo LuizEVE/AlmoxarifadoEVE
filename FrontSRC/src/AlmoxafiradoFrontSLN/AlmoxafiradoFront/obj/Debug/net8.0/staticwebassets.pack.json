@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\professor.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagens\\trash.svg",
+      "PackagePath": "staticwebassets\\imagens\\trash.svg"
+    },
+    {
       "Id": "C:\\Users\\professor.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
