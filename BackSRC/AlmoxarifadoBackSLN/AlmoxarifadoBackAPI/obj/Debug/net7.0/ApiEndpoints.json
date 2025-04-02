@@ -50,7 +50,7 @@
   {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.CategoriaController",
     "Method": "listaCategorias",
-    "RelativePath": "lista",
+    "RelativePath": "listaCategoria",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

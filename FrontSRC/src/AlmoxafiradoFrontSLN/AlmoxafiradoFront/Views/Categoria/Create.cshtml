@@ -6,16 +6,18 @@
 
 <h1>Cadastrar categoria</h1>
 
+
 <form method="post" action="/categoria/Cadastrar">
-    <div class="mb-3">
-        <label for="descricao" class="form-label">Descrição</label>
-        <input type="text" class="form-control" name="descricao" id="descricao" maxlength="100">
-      
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Descrição</label>
     </div>
 
-    <button class="btn btn-primary">
-        Voltar
-    </button>
+
+    <a class="btn btn-primary" href="/Categoria">
+    Voltar
+    </a>
+ 
     <button type="submit" class="btn btn-primary">Salvar</button>
  
  
