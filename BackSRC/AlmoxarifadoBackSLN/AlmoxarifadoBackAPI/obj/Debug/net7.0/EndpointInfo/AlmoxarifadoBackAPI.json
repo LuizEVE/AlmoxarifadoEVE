@@ -183,15 +183,15 @@
             "type": "string",
             "nullable": true
           },
-          "unidadeMedida": {
+          "unMedida": {
             "type": "string",
             "nullable": true
           },
           "estoqueAtual": {
-            "type": "number",
-            "format": "float"
+            "type": "integer",
+            "format": "int32"
           },
-          "epermanente": {
+          "ePermanente": {
             "type": "boolean"
           },
           "codigoCategoria": {

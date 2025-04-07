@@ -1,0 +1,70 @@
+﻿
+<div id="container" class="containerProduto">
+    <div class="container1Produto">
+        <div>
+
+            <a class="btn btn-success" href="/Produto/create">Novo</a>
+        </div>
+    </div>
+    <div class="container2Produto">
+        <table class="TableContainerProduto">
+            <thead class="theadProduto">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+              <th>
+                Unidade de Medida
+            </th>
+            <th>
+                Estoque Atual
+            </th>
+            <th>
+                É Permanente
+            </th>
+            <th>
+                Codigo da Categoria
+            </th>
+            <th>
+                Opções
+            </th>
+            </thead>
+            <tbody>
+
+                @foreach (var item in ViewBag.Produtos)
+                {
+                    <tr>
+                        <td class="tdProduto">@item.codigo</td>
+                        <td class="tdProduto">@item.descricao</td>
+                        <td class="tdProduto">@item.unMedida</td>
+                        <td class="tdProduto">@item.estoqueAtual</td>
+                        <td class="tdProduto">@item.ePermanente</td>
+                        <td class="tdProduto">@item.codigoCategoria</td>
+                        <td class="tdProduto">
+                            <div class="IconesContainerProduto">
+                                <img class="iconelixo" src="./imagens/trash.svg" />
+
+                                <div class="Icone2Produto">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Produto">
+        <div>
+            <button class="btn btn-primary" >
+                Voltar
+            </button>
+
+        </div>
+    </div>
+</div>
+

@@ -1,4 +1,5 @@
 wwwroot\css\categoria.css
+wwwroot\css\produto.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\imagens\trash.svg
