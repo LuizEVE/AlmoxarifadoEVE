@@ -37,5 +37,35 @@ namespace AlmoxafiradoFront.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Cadastrar(string descricao, string unMedida, int estoqueAtual, bool ePermanente, int codigoCategoria)
+        {
+            var url = "https://localhost:44366/criarproduto";
+
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var produtoNovo = new ProdutoNovoDTO { descricao = descricao, unMedida = unMedida, estoqueAtual = estoqueAtual, ePermanente = ePermanente, codigoCategoria = codigoCategoria};
+
+                var cartoriaSerializada = JsonSerializer.Serialize<ProdutoNovoDTO>(produtoNovo);
+
+                var jsonContent = new StringContent(cartoriaSerializada, Encoding.UTF8, "application/json");
+
+
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+                response.EnsureSuccessStatusCode();
+
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+
+
+            return RedirectToAction("Index");
+        }
     }
 }

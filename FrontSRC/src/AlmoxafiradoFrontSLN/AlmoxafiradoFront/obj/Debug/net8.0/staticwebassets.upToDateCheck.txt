@@ -2,6 +2,7 @@ wwwroot\css\categoria.css
 wwwroot\css\produto.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagens\pencil-square.svg
 wwwroot\imagens\trash.svg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
