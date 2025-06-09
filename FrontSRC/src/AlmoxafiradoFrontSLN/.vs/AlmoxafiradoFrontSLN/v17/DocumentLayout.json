@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\manha.cetafest\\documents\\github\\almoxarifadoeve\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\manha.cetafest\\documents\\github\\almoxarifadoeve\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\manha.cetafest\\documents\\github\\almoxarifadoeve\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\manha.cetafest\\documents\\github\\almoxarifadoeve\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -118,13 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\AlmoxarifadoEVE\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\AlmoxarifadoEVE\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwEUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T16:41:09.475Z",
               "EditorCaption": ""
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\AlmoxarifadoEVE\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Produto\\Create.cshtml",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Produto\\Create.cshtml",
@@ -163,8 +163,7 @@
               "RelativeToolTip": "AlmoxafiradoFront\\Views\\Produto\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T13:45:40.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:45:40.187Z"
             },
             {
               "$type": "Document",
@@ -234,7 +233,7 @@
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\AlmoxarifadoEVE\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAASwD4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAASwCsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T13:24:34.719Z",
               "EditorCaption": ""
@@ -249,8 +248,7 @@
               "RelativeToolTip": "AlmoxafiradoFront\\Views\\Produto\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAnwCMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T12:39:34.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T12:39:34.157Z"
             },
             {
               "$type": "Document",
